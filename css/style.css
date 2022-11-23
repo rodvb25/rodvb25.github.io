@@ -1,0 +1,21 @@
+header {
+    align-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#rodImg {
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px lightgray;
+}
