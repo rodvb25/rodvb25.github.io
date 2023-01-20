@@ -1,21 +1,71 @@
-header {
-    align-content: center;
+.centerElements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #009b77, midnightblue);
+  color: azure;
+  font-family: arial, monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-    display: flex;
-    align-items: flex-end;
-    align-content: center;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: salmon;
+  top: 0;
+  width: 100%;
 }
 
-main {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+nav a {
+  margin: 10px;
+  color: midnightblue;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #009b77;
+}
+
+#about {
+  padding: 10rem;
+}
+
+#portfolio {
+  padding: 10rem;
 }
 
 #rodImg {
-    height: 250px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px lightgray;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px darkgrey;
+}
+
+#contact {
+  padding-top: 10rem;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer ul li {
+  margin: 1em;
+}
+
+footer svg {
+  height: 24px;
+  fill: lightgrey;
 }
